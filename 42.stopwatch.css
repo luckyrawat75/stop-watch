@@ -1,0 +1,86 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'popins', sans-serif;
+}
+
+.container {
+    height: 630px;
+    width: 1425px;
+
+    background-color: #2C1338;
+}
+
+/*   h1 {
+    color: white;
+    font-size: 35px;
+    font-weight: 600;
+    position: absolute;
+    font-family: 'popins', sans-serif;
+    top: 80px;
+    left: 33%;
+
+}
+    */
+.watch h1 {
+    text-align: center;
+    padding-top: 3%;
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'popins', sans-serif;
+    color: white;
+}
+
+.stop-watch {
+    padding-top: 30px;
+    padding-left: 25%;
+    color: white;
+    font-size: 140px;
+}
+
+.buttons {
+    padding-left: 45%;
+    transition: all ease-in 0.2s;
+}
+
+button {
+    padding: 14px 40px;
+    border-radius: 28px;
+
+
+    color: #FFFFFF;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    background-color: #E57CD8;
+
+}
+
+/* button:hover {
+    background: #564260;
+}*/
+#start {
+
+    background-color: #E57CD8;
+}
+
+#start:hover {
+    background-color: #af7ac7;
+    color: white;
+}
+
+#clear {
+    background-color: #af7ac7;
+    color: white;
+}
+
+#clear:hover {
+    background-color: white;
+    color: #E57CD8;
+}
+
+.icon {
+    padding-top: 25px;
+    padding-left: 48%;
+}
